@@ -1,0 +1,41 @@
+package BancoFuctura;
+
+import java.util.Scanner;
+
+public class AgenciaFuctura {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("------------------------------------------------------");
+		System.out.println("-------------Bem vindos a nossa Agência---------------");
+		System.out.println("------------------------------------------------------");
+		System.out.println("***** Selecione uma operação que deseja realizar *****");
+		System.out.println("------------------------------------------------------");
+		System.out.println("|   Opção 1 - Criar conta   |");
+		System.out.println("|   Opção 2 - Depositar     |");
+		System.out.println("|   Opção 3 - Sacar         |");
+		System.out.println("|   Opção 4 - Transferir    |");
+		System.out.println("|   Opção 5 - Listar        |");
+		System.out.println("|   Opção 6 - Sair          |");
+		int opcao = input.nextInt();
+		switch (opcao) {
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+
+		default:
+			System.out.println("Opção Inválida!!");
+
+		}
+
+	}
+
+}

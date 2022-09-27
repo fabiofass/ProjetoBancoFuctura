@@ -1,0 +1,5 @@
+package BancoFuctura;
+
+public abstract class Conta {
+
+}
